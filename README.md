@@ -41,3 +41,7 @@ Se comprobó la sintaxis JavaScript y el autor confirmó que probó el script en
 El script conserva las fuentes de la guía, [SRTM](https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003) y [FAO GAUL 2015](https://developers.google.com/earth-engine/datasets/catalog/FAO_GAUL_2015_level1). Si GAUL 2015 deja de estar disponible, la alternativa requiere adaptar el filtro a la capa administrativa que se use. 
 
 [Decisiones de reconstrucción y detalles de la evidencia](metodologia.md)
+
+## Análisis del relieve y reporte automático
+
+El proyecto incluye una segunda etapa con curvas de nivel, pendientes y generación de un reporte Word mediante PyQGIS. Consulta el [script y la guía de ejecución](analisis-relieve/README.md).
